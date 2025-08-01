@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff4757;
+  color: white;
+  padding: 20px;
+}
+
+.produk {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #2ed573;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  padding: 10px;
+  background: #dfe4ea;
+}
